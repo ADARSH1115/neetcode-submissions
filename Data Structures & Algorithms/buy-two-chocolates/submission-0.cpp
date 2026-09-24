@@ -1,6 +1,7 @@
 class Solution {
 public:
     int buyChoco(vector<int>& prices, int money) {
+        //first approach
         sort(prices.begin(),prices.end());
 
         int twochoc_price = prices[0]+prices[1];
